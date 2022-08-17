@@ -1,0 +1,32 @@
+.hotels{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+.hero-banner-content.container-agoda {
+    position: relative;
+    padding-top: 165px;
+}
+
+.container-agoda {
+    clear: both;
+    width: 986px;
+    margin: 0 auto;
+}
+div {
+    display: block;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.hotel-item, .hotels-list-item, .packages-last-item {
+    cursor: pointer;
+}
